@@ -18,18 +18,41 @@ div
 {
 	position: relative;
 
-	max-width: 1196px;
+	max-width: 1152px;
 	margin: 0 auto;
 }
 
 .navbar
 {
 	min-height: 7rem;
+
+	flex-grow: 1;
+	flex-shrink: 0;
+
+	display: flex;
 }
 
 .navbar-right
 {
+	align-items: stretch;
+	justify-content: right;
+
 	position: relative;
 
-	right: 0;
+	margin-left: auto;
+
+	display: flex;
+}
+
+.navbar-item
+{
+	align-items: center;
+
+	padding:  .5rem .75rem;
+	flex-grow: 0;
+	flex-shrink: 0;
+
+	position: relative;
+
+	display: flex;
 }
