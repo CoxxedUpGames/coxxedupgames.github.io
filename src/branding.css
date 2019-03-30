@@ -1,3 +1,8 @@
+body
+{
+	font-family: 'Roboto Condensed';
+}
+
 div
 {
 	display: block;
@@ -55,4 +60,11 @@ div
 	position: relative;
 
 	display: flex;
+}
+
+.navbar-item.link
+{
+	color: white;
+
+	text-decoration: none;
 }
