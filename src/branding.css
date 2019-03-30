@@ -10,11 +10,26 @@ div
 	left: 0;
 	right: 0;
 	z-index: 30;
+
+	background-color: rgb(32, 42, 50);
 }
 
 .container
 {
-	margin: 0 auto;
-
 	position: relative;
+
+	max-width: 1196px;
+	margin: 0 auto;
+}
+
+.navbar
+{
+	min-height: 7rem;
+}
+
+.navbar-right
+{
+	position: relative;
+
+	right: 0;
 }
