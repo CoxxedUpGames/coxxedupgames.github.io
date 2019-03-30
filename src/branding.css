@@ -12,9 +12,31 @@ div
 	z-index: 30;
 }
 
+.container
+{
+	margin: 0 auto;
+
+	position: relative;
+}
+
 .navbar
 {
 	min-height: 7rem;
 
 	background-color: rgba(21, 32, 43, 0.3);
+}
+
+.navbar-item
+{
+	position: relative;
+}
+
+.navbar>.container
+{
+	display: flex;
+
+	align-items: stretch;
+
+	min-height: 7rem;
+	width: 100%;
 }
