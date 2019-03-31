@@ -64,7 +64,15 @@ div
 
 .navbar-item.link
 {
+	margin: 0 15px;
+
 	color: white;
+	font-size: 17pt;
 
 	text-decoration: none;
+}
+
+.navbar-item.link:hover
+{
+	background-color: rgb(58, 71, 81);
 }
