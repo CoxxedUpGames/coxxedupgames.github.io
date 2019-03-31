@@ -53,7 +53,7 @@ div
 {
 	align-items: center;
 
-	padding:  .5rem .75rem;
+	padding:  .5rem 1rem;
 	flex-grow: 0;
 	flex-shrink: 0;
 
@@ -70,9 +70,16 @@ div
 	font-size: 17pt;
 
 	text-decoration: none;
+
+	border: solid 4px rgba(0, 0, 0, 0);
 }
 
 .navbar-item.link:hover
 {
 	background-color: rgb(58, 71, 81);
+}
+
+.link#is-active
+{
+	border-bottom-color: red;
 }
